@@ -15,7 +15,7 @@ from setuptools import find_packages, setup, Command
 NAME = "asault"
 DESCRIPTION = "My short description for my project."
 URL = "https://github.com/onidemon37/PythonTutorial"
-EMAIL = "onidemon37@protonmail,com"
+EMAIL = "onidemon37@protonmail.com"
 AUTHOR = "onidemon37"
 REQUIRES_PYTHON = ">=3.6.0"
 VERSION = "0.1.0"
