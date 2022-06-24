@@ -37,8 +37,7 @@ jobs:
         run: |
           python -VV
           python -m pip install --upgrade pip setuptools wheel
-          python -m pip install --upgrade
-          pre-commit six toml virtualenv cfgv click distlib filelock identify nodeenv platformdirs PyYAML tox tox-gh-actions
+          python -m pip install --upgrade pre-commit six toml virtualenv cfgv click distlib filelock identify nodeenv platformdirs PyYAML tox tox-gh-actions
 
       # Runs a set of commands using the runners shell
       - name: "Run tox targets for ${{ matrix.python-version }}"
